@@ -1,0 +1,37 @@
+{
+  "name": "kashflow",
+  "version": "0.1.0",
+  "description": "Wrapper for Kashflow SOAP API",
+  "main": "./lib/kashflow.js",
+  "scripts": {
+    "test": "jest --"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/centre-for-effective-altruism/kashflow.git"
+  },
+  "keywords": [
+    "kashflow",
+    "accounting",
+    "api"
+  ],
+  "author": "Sam Deere <tech@effectivealtruism.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/centre-for-effective-altruism/kashflow/issues"
+  },
+  "homepage": "https://github.com/centre-for-effective-altruism/kashflow#readme",
+  "dependencies": {
+    "pify": "^2.3.0",
+    "soap": "^0.19.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^19.0.0",
+    "dotenv": "^4.0.0",
+    "jest": "^19.0.2",
+    "regenerator-runtime": "^0.10.3"
+  }
+}
